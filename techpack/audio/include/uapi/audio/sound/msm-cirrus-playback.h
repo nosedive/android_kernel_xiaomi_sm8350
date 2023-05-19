@@ -13,6 +13,9 @@
 #ifndef _UAPI_MSM_CIRRUS_SPK_PR_H
 #define _UAPI_MSM_CIRRUS_SPK_PR_H
 
+#ifndef __KERNEL__
+#include <stdint.h>
+#endif
 #include <linux/types.h>
 #include <linux/ioctl.h>
 
